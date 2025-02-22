@@ -1,0 +1,2 @@
+# Sistema de Escaneo Ultrasónico
+ Este proyecto es un sistema de radar basado en Arduino, que utiliza un sensor ultrasónico HC-SR04 y un servomotor para escanear el entorno y visualizar los datos en Processing. El servomotor gira el sensor en un rango determinado, mientras que el sensor mide la distancia a los objetos cercanos. Luego, los datos se envían a Processing para generar una representación visual del radar en tiempo real.
