@@ -1,11 +1,15 @@
 # Sistema de Escaneo Ultrasónico
  Este proyecto es un sistema de radar basado en Arduino, que utiliza un sensor ultrasónico HC-SR04 y un servomotor para escanear el entorno y visualizar los datos en Processing. El servomotor gira el sensor en un rango determinado, mientras que el sensor mide la distancia a los objetos cercanos. Luego, los datos se envían a Processing para generar una representación visual del radar en tiempo real.
 
+--- 
+
 ## ⚙️ **Funcionamiento**
 1. El **servomotor gira** de un lado a otro en un rango predefinido (0° a 180°).
 2. En cada posición, el **sensor ultrasónico HC-SR04** mide la distancia a los objetos cercanos.
 3. Los datos de distancia se envían a la computadora a través del **puerto serie**.
 4. En **Processing**, los datos se interpretan y se genera un **gráfico en forma de radar** que muestra los objetos detectados.
+
+---
 
 ## 🛠 **Materiales Necesarios**
 - **Arduino UNO**
@@ -14,40 +18,14 @@
 - **Protoboard y cables jumper**
 - **Computadora con Processing instalado**
 - **Cable USB para conectar Arduino a la PC**
+
+---
 
 ## 🔌 **Esquemático**
 El siguiente diagrama muestra la conexión entre los componentes:
 
 ![Esquemático](https://github.com/tthearmando/Sistema-de-Escaneo-Ultras-nico/raw/main/Esquematico.png)
 
-
-# **Radar Ultrasónico con Arduino y Processing**
-
-## 📌 Descripción
-Este proyecto consiste en un **radar ultrasónico** construido con **Arduino** y visualizado en **Processing**. Utiliza un **sensor ultrasónico HC-SR04** montado en un **servomotor** para escanear el entorno y detectar objetos cercanos. La información se transmite a Processing, donde se genera una interfaz visual que representa el radar en tiempo real.
-
----
-
-## ⚙️ **Funcionamiento**
-1. El **servomotor gira** de un lado a otro en un rango predefinido (0° a 180°).
-2. En cada posición, el **sensor ultrasónico HC-SR04** mide la distancia a los objetos cercanos.
-3. Los datos de distancia se envían a la computadora a través del **puerto serie**.
-4. En **Processing**, los datos se interpretan y se genera un **gráfico en forma de radar** que muestra los objetos detectados.
-
----
-
-## 🛠 **Materiales Necesarios**
-- **Arduino UNO**
-- **Sensor ultrasónico HC-SR04**
-- **Servomotor SG90**
-- **Protoboard y cables jumper**
-- **Computadora con Processing instalado**
-- **Cable USB para conectar Arduino a la PC**
-
----
-
-## 🔌 **Esquemático**
-El siguiente diagrama muestra la conexión entre los componentes:
 
 - **VCC del HC-SR04** → **5V de Arduino**
 - **GND del HC-SR04** → **GND de Arduino**
