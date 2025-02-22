@@ -34,12 +34,12 @@ Este proyecto consiste en un **radar ultrasónico** construido con **Arduino** y
 ---
 
 ## 🛠 **Materiales Necesarios**
-- ✅ **Arduino UNO** (o compatible)
-- ✅ **Sensor ultrasónico HC-SR04**
-- ✅ **Servomotor SG90**
-- ✅ **Protoboard y cables jumper**
-- ✅ **Computadora con Processing instalado**
-- ✅ **Cable USB para conectar Arduino a la PC**
+- **Arduino UNO**
+- **Sensor ultrasónico HC-SR04**
+- **Servomotor SG90**
+- **Protoboard y cables jumper**
+- **Computadora con Processing instalado**
+- **Cable USB para conectar Arduino a la PC**
 
 ---
 
