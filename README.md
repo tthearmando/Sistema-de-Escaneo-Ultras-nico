@@ -18,6 +18,9 @@
 ## 🔌 **Esquemático**
 El siguiente diagrama muestra la conexión entre los componentes:
 
+![Esquemático](https://github.com/tthearmando/Sistema-de-Escaneo-Ultras-nico/raw/main/Esquematico.png)
+
+
 # **Radar Ultrasónico con Arduino y Processing**
 
 ## 📌 Descripción
@@ -45,9 +48,6 @@ Este proyecto consiste en un **radar ultrasónico** construido con **Arduino** y
 
 ## 🔌 **Esquemático**
 El siguiente diagrama muestra la conexión entre los componentes:
-
-![Esquemático](https://github.com/tthearmando/Sistema-de-Escaneo-Ultras-nico/raw/main/Esquematico.png)
-
 
 - **VCC del HC-SR04** → **5V de Arduino**
 - **GND del HC-SR04** → **GND de Arduino**
